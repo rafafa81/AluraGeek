@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="./Logo.png" alt="" class="LogoTop">
+    </header>
+    <main>
+        <section>
+            <div class="encabezados"><label for=""><h1>MIS PRODUCTOS:</h1></label></div>
+            <div class="productos_box">
+                <div class="card">
+                    <img src="./assets/producto1.png" />
+                    <div class="card-container--info">
+                      <p>Nombre</p>
+                      <div class="card-container--value">
+                        <p>$ 00.00</p>
+                        <img src="./assets/trashIcon.png" />
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section>
+            <div class="encabezados"><label for=""><h1>AGREGAR PRODUCTO:</h1></label></div>
+            <div class="formulario_box">
+                <form action="pendiente" method="post">
+                    <label for="nombre_input" id="label_nombre">nombre...</label>
+                    <input type="text" name="nombre" id="nombre_input">
+                    <label for="precio_input" id="label_precio">precio...</label>
+                    <input type="text" name="precio" id="precio_input">
+                    <label for="imagen_input" id="label_imagen">imagen...</label>
+                    <input type="text" name="imagen" id="imagen_input">
+                    <div class="botones">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpiar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="./Logo.png" alt="" class="Logo">
+            <label for="">DESARROLADO POR RAFAEL MORENO</label>
+            <label for="">ALURA LATAM - 2024</label>
+        </div>
+    </footer>
+    
+</body>
+</html>
