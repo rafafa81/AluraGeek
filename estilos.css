@@ -221,10 +221,13 @@ footer > div > label:nth-child(3){
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         justify-items: stretch;
+        align-items: start;
         overflow-y:scroll;
     }
+    .card > img {
+    }
     .card {
-    
+        
     }
     footer {
         height: 200px;
