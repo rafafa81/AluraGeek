@@ -110,7 +110,7 @@ main > section:nth-child(2){
 
 }
 
-.formulario_box > form {
+.formulario_box > div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -223,7 +223,7 @@ footer > div > label:nth-child(3){
         justify-items: stretch;
         align-items: start;
         overflow:scroll;
-        -ms-overflow-style: none;  /* IE and Edge */
+        -ms-overflow-style: none;  
         scrollbar-width: none;
     }
     .productos_box::-webkit-scrollbar{

@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+        "nombre": "capitan America",
+        "precio": "10",
+        "imagen": "./assets/producto1.png",
+        "id": "1"
+      },
+    {
+      "nombre": "capitan America",
+      "precio": "10",
+      "imagen": "./assets/producto1.png",
+      "id": "2"
+    },
+    {
+      "nombre": "capitan America",
+      "precio": "10",
+      "imagen": "./assets/producto1.png",
+      "id": "3"
+    }
+  ]
+}
